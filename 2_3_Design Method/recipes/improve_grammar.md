@@ -10,7 +10,7 @@
 ## 2. Design the Method Signature
 
 ```ruby
-# `read_time` works out how long it will take to read a piece of text
+# `improve_grammar` works out how long it will take to read a piece of text
 correct = improve_grammar(string)
 
 - receives a string as an argument
