@@ -1,0 +1,14 @@
+#Given the following code"
+
+  # def say_hello(name)
+  #    return "hello #(name)"
+  # end
+
+# Intended output:
+  #
+  # > say_hello("kay")
+  # => "hello kay"
+
+  def say_hello(name)
+    return "hello #{name}"
+end
