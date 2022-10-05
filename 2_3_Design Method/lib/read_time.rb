@@ -6,10 +6,7 @@ class ReadTime
             return 'that text block is empty!'
         else
             float = @string.split.count / 200.00
-
-            flot
-
-       
+      
         end 
     end
 

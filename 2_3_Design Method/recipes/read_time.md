@@ -1,4 +1,4 @@
-# {{PROBLEM}} Method Design Recipe
+# 'Read Time' Method Design Recipe
 
 ## 1. Describe the Problem
 
@@ -8,7 +8,7 @@ I want to see an estimate of reading time for a text, assuming that I can read 2
 
 ## 2. Design the Method Signature
 
-_Include the name of the method, its parameters, return value, and side effects._
+
 
 ```ruby
 # `read_time` works out how long it will take to read a piece of text
@@ -21,8 +21,6 @@ time: a float (e.g. 12.5)
 ```
 
 ## 3. Create Examples as Tests
-
-_Make a list of examples of what the method will take and return._
 
 ```ruby
 # EXAMPLE
@@ -39,5 +37,5 @@ _Encode each example as a test. You can add to the above list as you go._
 
 ## 4. Implement the Behaviour
 
-_After each test you write, follow the test-driving process of red, green, refactor to implement the behaviour._
+navigate back one folder and run ```rspec```
 

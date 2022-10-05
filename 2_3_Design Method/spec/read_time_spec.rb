@@ -1,6 +1,6 @@
 require 'read_time'
 
-RSpec.describe ReadTime do
+RSpec.describe "Read time" do
     
     context "when I have a empty string" do
         it 'returns "that text block is empty!"' do
